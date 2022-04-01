@@ -1,0 +1,9 @@
+.none{
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.activ{
+  opacity: 1;
+  transition: 0.5s;
+}
