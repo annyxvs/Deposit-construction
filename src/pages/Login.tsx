@@ -1,6 +1,8 @@
 import React from "react";
 import imageLogin from '../images/cement.png'
 import * as S from '../styles/Login'
+import {Input, Inpunt_Login} from '../styles/Input' 
+import BntBack from "../components/Bnt-back";
 
 const Login = () =>{
   return(
@@ -10,15 +12,17 @@ const Login = () =>{
           <S.Aside>
             <img src={imageLogin} alt='' />
           </S.Aside>
-          <div className="text">
+          <S.LoginArea>
             <h2>Login</h2>
             <form>
-              <input type='text' required placeholder="Digite seu nome..."/>
-              <input type='email' placeholder="Digite seu email..."/>
-              <input type='tel' required placeholder="(xx)xxxxx-xxxx"/>
-              <input type='submit' value='Login >'/>
+              <Input type='text' required placeholder="Digite seu nome..."/>
+              <Input type='email' required placeholder="Digite seu email..."/>
+              <Input type='tel' required placeholder="(xx)xxxxx-xxxx"/>
+              <Inpunt_Login type='submit' value='Login'/>
+
+              <BntBack/>
             </form>
-          </div>
+          </S.LoginArea>
         </S.Grid>
       </S.Login>
     </>

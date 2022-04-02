@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
     padding:0;
     box-sizing: border-box;
   }
+  html{
+    background-color: ${styles.colors.primary[100]};
+  }
   a{
     text-decoration: none;
   }

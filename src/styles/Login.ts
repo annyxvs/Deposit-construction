@@ -20,6 +20,20 @@ export const Grid = styled.div`
   height:90vh;
 
   border-radius: 0.4rem;
+   
+  @media (max-width: 700px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+
+    aside{
+      height: 30vh;
+    }
+
+    h2{
+      margin-left:1.5rem;
+    }
+  }
 `
 
 export const Aside = styled.aside`
@@ -33,5 +47,16 @@ export const Aside = styled.aside`
 
   img{
     margin: 0 auto;
+  }
+`
+
+export const LoginArea  = styled.div`
+  margin-top: 2rem;
+  margin-left: 3rem;
+
+  h2{
+    font-size: 4rem;
+    font-family: ${styles.fonts.title};
+    color: ${styles.colors.secudery[300]};
   }
 `
