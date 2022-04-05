@@ -10,7 +10,7 @@ const Login = () =>{
       <S.Login>
         <S.Grid>
           <S.Aside>
-            <img src={imageLogin} alt='' />
+            <img src={imageLogin} alt='representação de um saco de cimento ao lado de uma pá' />
           </S.Aside>
           <S.LoginArea>
             <h2>Login</h2>
