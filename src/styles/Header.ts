@@ -23,9 +23,11 @@ export const Header  = styled.header`
   button{
     margin-right: 3rem;
 
+    background-color: transparent;
+
     border: none;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 
     transition: 0.5s;
 
